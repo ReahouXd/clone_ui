@@ -22,25 +22,25 @@ class _HomepageState extends State<Homepage> {
       appBar: _buildAppBar(),
       // backgroundColor: const Color(0xff005D86),
       backgroundColor: const Color(0xff024466),
-      floatingActionButton: SizedBox(
-        height: 70,
-        width: 70,
-        child: FloatingActionButton(
-          onPressed: () {},
-          shape: const CircleBorder(),
-          backgroundColor: Colors.pink,
-          child: const Icon(
-            Icons.monetization_on,
-            color: Colors.white,
-            size: 40,
-          ),
-        ),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      // floatingActionButton: SizedBox(
+      //   height: 70,
+      //   width: 70,
+      //   child: FloatingActionButton(
+      //     onPressed: () {},
+      //     shape: const CircleBorder(),
+      //     backgroundColor: Colors.pink,
+      //     child: const Icon(
+      //       Icons.monetization_on,
+      //       color: Colors.white,
+      //       size: 40,
+      //     ),
+      //   ),
+      // ),
+      // floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
 
       // floatingActionButton: _buildFloating(),
       body: _buildBody(),
-      bottomNavigationBar: _buildBotton(),
+      // bottomNavigationBar: _buildBotton(),
     );
   }
 
